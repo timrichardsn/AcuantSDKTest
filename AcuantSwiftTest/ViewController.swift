@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        instance = AcuantMobileSDKController.initAcuantMobileSDK(withLicenseKey: "F9DB7D13F8CF", andDelegate: self)
+        instance = AcuantMobileSDKController.initAcuantMobileSDK(withLicenseKey: "", andDelegate: self)
     }
     
     @IBAction func openPassportScanner(_ sender: Any) {
