@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/AcuantMobileSDK/AcuantMobileSDK.embeddedframework/**"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 CVLIB_IMG_NOCODEC
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AcuantMobileSDK"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited)  -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AcuantMobileSDK"
+OTHER_LDFLAGS = $(inherited) -l"c++" -l"iconv" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AcuantMobileSDK" -framework "AssetsLibrary" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreText" -framework "CoreVideo" -framework "ImageIO" -framework "QuartzCore" -framework "SystemConfiguration"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
