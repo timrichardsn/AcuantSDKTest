@@ -23,6 +23,7 @@
 		226D1D111E9624FA000B00D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		226D1D141E9624FA000B00D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		226D1D161E9624FA000B00D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22DD95991E96271E00B6AA1D /* AcuantSwiftTest-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AcuantSwiftTest-BridgingHeader.h"; sourceTree = "<group>"; };
 		622B129156CC741F6A25371B /* Pods-AcuantSwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcuantSwiftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcuantSwiftTest/Pods-AcuantSwiftTest.release.xcconfig"; sourceTree = "<group>"; };
 		A4FEC54463CAF77A57ABEE67 /* Pods_AcuantSwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AcuantSwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5B51A633AF0A83D031718A /* Pods-AcuantSwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcuantSwiftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcuantSwiftTest/Pods-AcuantSwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,6 +68,7 @@
 				226D1D111E9624FA000B00D4 /* Assets.xcassets */,
 				226D1D131E9624FA000B00D4 /* LaunchScreen.storyboard */,
 				226D1D161E9624FA000B00D4 /* Info.plist */,
+				22DD95991E96271E00B6AA1D /* AcuantSwiftTest-BridgingHeader.h */,
 			);
 			path = AcuantSwiftTest;
 			sourceTree = "<group>";
@@ -342,6 +344,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trco.AcuantSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcuantSwiftTest/AcuantSwiftTest-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -356,6 +359,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.trco.AcuantSwiftTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AcuantSwiftTest/AcuantSwiftTest-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -379,6 +383,7 @@
 				226D1D1B1E9624FA000B00D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
