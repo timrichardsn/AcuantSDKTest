@@ -33,6 +33,10 @@ extension ViewController : AcuantMobileSDKControllerCapturingDelegate {
         print("didCaptureOriginalImage")
     }
     
+    func didCaptureCropImage(_ cardImage: UIImage!, andData data: String!, scanBackSide: Bool) {
+        print("didCaptureCropImage and data")
+    }
+    
     // called when capturing the barcode for a drivers license when using the barcode CaptureMethod (see start())
     func didCaptureData(_ data: String!) {
         print("didCaptureData \(data)")
