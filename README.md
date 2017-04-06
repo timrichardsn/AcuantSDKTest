@@ -1,9 +1,13 @@
 # AcuantSDKTest
 A demo Swift project of the Acuant iOS mobile SDK setup via cocoapods
 
+Tested with:
+Xcode 8.3
+Cocoapods 1.2
+
 # Installation
 
-Make sure you have git-lfs installed, then:
+Make sure you have cocoapods and git-lfs installed, then:
 
     pod install
     
